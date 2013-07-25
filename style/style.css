@@ -1,0 +1,113 @@
+.basic-digit {
+  height: 90px;
+  width: 58px;
+  background-image: url("../img/ticker_bolder_blur.png");
+  width: 58px;
+  height: 90px;
+  float: left;
+  margin-right: 10px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2) {
+    .basic-digit {
+      background-image: url("../img/ticker_bolder_blur@2x.png");
+      background-size: 58px 766px;
+      -webkit-background-size: 58px 766px;
+      -moz-background-size: 58px 766px; } }
+
+.basic-digit:last-child {
+  margin-right: 0px; }
+
+.infinite-scrolling {
+  -webkit-animation: play 0.2s steps(1000) infinite;
+  -moz-animation: play 0.2s steps(1000) infinite;
+  -ms-animation: play 0.2s steps(1000) infinite;
+  -o-animation: play 0.2s steps(1000) infinite;
+  animation: play 0.2s steps(1000) infinite; }
+
+.ticker-digits {
+  width: auto;
+  height: 94px; }
+  .ticker-digits .dollor, .ticker-digits .comma {
+    float: left;
+    width: 36px;
+    height: 90px;
+    line-height: 98px;
+    font-size: 36px; }
+  .ticker-digits .comma {
+    width: 20px;
+    margin-left: -10px; }
+
+.clear-number {
+  height: 90px;
+  width: 58px;
+  background-image: url("../img/ticker_bolder.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2) {
+    .clear-number {
+      background-image: url("../img/ticker_bolder@2x.png");
+      background-size: 58px 766px;
+      -webkit-background-size: 58px 766px;
+      -moz-background-size: 58px 766px; } }
+
+.number1 {
+  background-position: 0 -75px; }
+
+.number2 {
+  background-position: 0px -150px; }
+
+.number3 {
+  background-position: 0px -225px; }
+
+.number4 {
+  background-position: 0 -300px; }
+
+.number5 {
+  background-position: 0 -375px; }
+
+.number6 {
+  background-position: 0 -450px; }
+
+.number7 {
+  background-position: 0 -525px; }
+
+.number8 {
+  background-position: 0 -600px; }
+
+.number9 {
+  background-position: 0 -675px; }
+
+.number0 {
+  background-position: 0 0; }
+
+@-webkit-keyframes play {
+  from {
+    background-position: 0px 0px; }
+
+  to {
+    background-position: 0px -750px; } }
+
+@-moz-keyframes play {
+  from {
+    background-position: 0px 0px; }
+
+  to {
+    background-position: 0px -750px; } }
+
+@-ms-keyframes play {
+  from {
+    background-position: 0px 0px; }
+
+  to {
+    background-position: 0px 750px; } }
+
+@-o-keyframes play {
+  from {
+    background-position: 0px 0px; }
+
+  to {
+    background-position: 0px 750px; } }
+
+@keyframes play {
+  from {
+    background-position: 0px 0px; }
+
+  to {
+    background-position: 0px 750px; } }
