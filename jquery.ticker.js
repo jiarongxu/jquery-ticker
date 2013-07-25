@@ -7,6 +7,7 @@
 			var defaults = {
 				initDelayForEachDigit: 100,
 				delayForEachDigit: 300,
+				dataDaily: 3182,
 				finalDelay: 3000,
 				beginDate: "2008,01,02",
 				endDate: "2008,01,22"
@@ -28,7 +29,7 @@
 
 				var days = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
 
-				var dailyIncrease = parseInt($(this).attr("data-daily"));
+				var dailyIncrease = o.dataDaily;
 				var number = "" + days*dailyIncrease 
 
         $(this).append("<div class='dollor'>$</div>");

@@ -17,6 +17,8 @@ Swipe can take an optional second parameter– an object of key/value settings:
 
 - **finalDelay** Integer *(default: 3000)* - after all digits starts rolling then wait for few seconds to stop rolling and show the number
 
+- **dataDaily** Integer *(default: 3182)* - Daily increased number
+
 - **beginDate** String *(default: "2008,01,02")* - start date
 
 - **endDate** String *(default: "2008,01,22")* - end date
