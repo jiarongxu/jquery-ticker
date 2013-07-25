@@ -21,4 +21,8 @@ Swipe can take an optional second parameter– an object of key/value settings:
 
 - **endDate** String *(default: "2008,01,22")* - end date
 
+##CSS
 
+SCSS is used for the plugin, I am using livereload to compile my SCSS code. SCSS code is in /style/src/ticker.scss and the compile code is in /style/style.css
+
+The animation is using the css3 animation to start rolling the background image and then it's done, I positioned the background image to the right digit.
